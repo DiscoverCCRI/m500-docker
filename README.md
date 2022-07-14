@@ -13,7 +13,7 @@ Run the newly build docker image by running the provided script run_docker_image
 
 ```
 voxl:~$ bash run_docker_file.sh
-Input image name [ex) noetic:0.5]: noetic:1.0
+Input image name [ex) noetic:1.0]: noetic:1.0
 root@apq8096:~/yoctohome# 
 ```
 The above script is a much quicker way of executing the longer docker run command that, among other things, mounts the home directory and the SD card:
