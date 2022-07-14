@@ -20,12 +20,7 @@ fi
 # Set ROS_IP & ROS_MASTER_URI appropriately for your configuration
 # 192.168.8.1 is default for the robot in soft access point mode
 
-# Bryce's testing on 6/1/22 -> changed commented ROS_IP line to revert
-# 10.121.10.90 was resmedianet IP at the time
-
 export ROS_IP=10.121.10.90
-# export ROS_IP=10.121.5.254
-# export ROS_IP=192.168.8.1
 
 export ROS_MASTER_IP=${ROS_IP}
 export ROS_MASTER_URI=http://${ROS_IP}:11311/
