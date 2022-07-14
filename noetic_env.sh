@@ -16,6 +16,14 @@ if [ -f ~/yoctohome/noetic_catkin_ws/install/setup.bash ]; then
 	source ~/yoctohome/noetic_catkin_ws/install/setup.bash
 fi
 
+if [ -f ~/yoctohome/catkin_ws/devel/setup.bash ]; then
+    	source ~/yoctohome/catkin_ws/devel/setup.bash
+fi
+
+if [ -f ~/yoctohome/catkin_ws/install/setup.bash ]; then
+	source ~/yoctohome/catkin_ws/install/setup.bash
+fi
+
 
 # Set ROS_IP & ROS_MASTER_URI appropriately for your configuration
 # 192.168.8.1 is default for the robot in soft access point mode
