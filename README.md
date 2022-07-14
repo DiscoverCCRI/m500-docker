@@ -33,7 +33,7 @@ The above lines are convenient for having a second terminal running roscore in t
 
 
 ## Environment
-Before you can run any ROS code in your container, you first have to source the container's environment. This can be done by simply sourcing the included noetic_env.sh script:
+Before you can run any ROS code in your container, you first have to source the container's environment. This can be done by modifying the included noetic_env.sh script with the VOXL Flight's IP address and then sourcing the script:
 
 ```
 root@apq8096:~/yoctohome# . noetic_env.sh
