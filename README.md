@@ -1,4 +1,4 @@
-# m500 Drone Docker Image
+# m500 ROS Noetic Docker Setup
 Used for development on VOXL m500 Drones for DiscoverCCRI. Includes dockerfile and helper scripts.
 
 ## Build
