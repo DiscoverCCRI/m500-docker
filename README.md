@@ -5,7 +5,7 @@ Used for development on VOXL m500 Drones for DiscoverCCRI. Includes dockerfile a
 Build the image from the docker file with:
 
 ```
-voxl:~$ docker build --network=host -f ~/noetic_dockerfile -t noetic:1.0
+voxl:~$ docker build -f ~/noetic_dockerfile -t noetic:1.0
 ```
 
 ## Run
